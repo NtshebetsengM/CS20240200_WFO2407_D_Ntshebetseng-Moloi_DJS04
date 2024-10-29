@@ -1,60 +1,22 @@
 import { books, authors, genres, BOOKS_PER_PAGE } from './data.js'
+import { renderPreview , populateGenreOptions} from './helpers.js';
 
 let page = 1;
 let matches = books
 
-const starting = document.createDocumentFragment()
+const startingFragment = document.createDocumentFragment()
 
-for (const { author, id, image, title } of matches.slice(0, BOOKS_PER_PAGE)) {
-    const element = document.createElement('button')
-    element.classList = 'preview'
-    element.setAttribute('data-preview', id)
+//abstracted rendering of books on page load into a function
+renderPreview(matches, authors, BOOKS_PER_PAGE, startingFragment)
+document.querySelector('[data-list-items]').appendChild(startingFragment)
 
-    element.innerHTML = `
-        <img
-            class="preview__image"
-            src="${image}"
-        />
-        
-        <div class="preview__info">
-            <h3 class="preview__title">${title}</h3>
-            <div class="preview__author">${authors[author]}</div>
-        </div>
-    `
-
-    starting.appendChild(element)
-}
-
-document.querySelector('[data-list-items]').appendChild(starting)
-
+//creates the options within the search modal
 const genreHtml = document.createDocumentFragment()
-const firstGenreElement = document.createElement('option')
-firstGenreElement.value = 'any'
-firstGenreElement.innerText = 'All Genres'
-genreHtml.appendChild(firstGenreElement)
-
-for (const [id, name] of Object.entries(genres)) {
-    const element = document.createElement('option')
-    element.value = id
-    element.innerText = name
-    genreHtml.appendChild(element)
-}
-
+populateGenreOptions(genres, genreHtml, 'All Genres')
 document.querySelector('[data-search-genres]').appendChild(genreHtml)
 
 const authorsHtml = document.createDocumentFragment()
-const firstAuthorElement = document.createElement('option')
-firstAuthorElement.value = 'any'
-firstAuthorElement.innerText = 'All Authors'
-authorsHtml.appendChild(firstAuthorElement)
-
-for (const [id, name] of Object.entries(authors)) {
-    const element = document.createElement('option')
-    element.value = id
-    element.innerText = name
-    authorsHtml.appendChild(element)
-}
-
+populateGenreOptions(authors, authorsHtml, 'All Authors')
 document.querySelector('[data-search-authors]').appendChild(authorsHtml)
 
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
