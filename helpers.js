@@ -1,3 +1,5 @@
+import { SELECTOR } from "./selectors.js";
+
 /**
  * Renders a batch of book previews into a provided fragment.
  * @param {Array<Object>} matches - Array of book objects to render.
@@ -136,17 +138,20 @@ export const toggleMessageDisplay = (matchCount) => {
 
 /**
  * Updates the state and content of the "Show More" button based on the current match count and page
- * @param {number} matchCount -total number of matches found
- * @param {number} page -current page number (zero-based index)
- * @param {number} BOOKS_PER_PAGE -number of books displayed per page
+ * @param {number} matchCount total number of matches found
+ * @param {number} page 
+ * @param {number} BOOKS_PER_PAGE 
  */
 export const updateShowMoreBtn = (matchCount, page, BOOKS_PER_PAGE ) => {
-    const showMoreButton = document.querySelector('[data-list-button]');
+    const showMoreButton = document.querySelector(SELECTOR.listButton)
     
-    showMoreButton.disabled = (matchCount - (page * BOOKS_PER_PAGE)) < 1;
-
-    const remainingCount = Math.max(0, matchCount - (page * BOOKS_PER_PAGE));
-    showMoreButton.innerHTML = `
+    if (!showMoreButton){
+        throw new Error('button not found')
+    }
+     const remainingCount = Math.max(0, matchCount - (page * BOOKS_PER_PAGE))
+     
+     showMoreButton.disabled = remainingCount <= 0
+     showMoreButton.innerHTML = `
         <span>Show more</span>
         <span class="list__remaining"> (${remainingCount})</span>
     `
@@ -204,4 +209,34 @@ export const initializeBookPreviewListener = (bookListSelector, books, authors) 
     titleElement.innerText = book.title
     subtitleElement.innerText = `${authors[book.author]} (${new Date(book.published).getFullYear()})`
     descriptionElement.innerText = book.description
+}
+
+
+export const initializeApp = (bookAppState, authors, books, startingFragment,BOOKS_PER_PAGE, genres) =>{
+    //abstracted rendering of books on page load into a function
+    renderPreview(bookAppState.matches, authors, BOOKS_PER_PAGE, startingFragment)
+    document.querySelector(SELECTOR.listItems).appendChild(startingFragment)
+    
+    //creates the options within the search modal
+    const genreHtml = document.createDocumentFragment()
+    populateGenreOptions(genres, genreHtml, 'All Genres')
+    document.querySelector('[data-search-genres]').appendChild(genreHtml)
+
+    const authorsHtml = document.createDocumentFragment()
+    populateGenreOptions(authors, authorsHtml, 'All Authors')
+    document.querySelector('[data-search-authors]').appendChild(authorsHtml)
+
+    const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    isDarkMode ? toggleThemeNight() : toggleThemeDay();
+
+    document.querySelector(SELECTOR.listButton).innerText = `Show more (${books.length - BOOKS_PER_PAGE})`
+    document.querySelector(SELECTOR.listButton).disabled = (bookAppState.matches.length - (bookAppState.page * BOOKS_PER_PAGE)) < 0
+
+    //toggling search, settings and list modals
+    toggleModals('[data-search-cancel]',SELECTOR.searchOverlay, false)
+    toggleModals('[data-settings-cancel]', SELECTOR.settingsOverlay, false)
+    toggleModals('[data-list-close]', '[data-list-active]', false)
+    toggleModals('[data-header-settings]', SELECTOR.settingsOverlay, true )
+    toggleModals('[data-header-search]',SELECTOR.searchOverlay, true, '[data-search-title]')
+
 }
