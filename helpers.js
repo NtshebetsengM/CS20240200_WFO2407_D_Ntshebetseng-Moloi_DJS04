@@ -48,3 +48,34 @@ export const populateGenreOptions = (options, html, defaultText)=>{
          html.appendChild(optionElement)
     }
     }
+
+
+
+export    const toggleThemeNight = () => {
+        document.querySelector('[data-settings-theme]').value = 'night'
+        document.documentElement.style.setProperty('--color-dark', '255, 255, 255');
+        document.documentElement.style.setProperty('--color-light', '10, 10, 20');
+    
+    }
+export    const toggleThemeDay = () => {
+        document.querySelector('[data-settings-theme]').value = 'day'
+        document.documentElement.style.setProperty('--color-dark', '10, 10, 20');
+        document.documentElement.style.setProperty('--color-light', '255, 255, 255');
+    
+    }
+
+    /**
+     * Toggles the modal open/close state and optionally sets focus on the title bar
+     * @param {string | HTMLElement} triggerBtn Selector string or button element to trigger the modal
+     * @param {string | HTMLElement} overlay -Selector string or overlay element of the modal
+     * @param {boolean} state -state to set for the modal's open property.
+     * @param {string | HTMLElement | null} titleBar - Selector or element for the title bar to focus when the modal opens
+     */
+export const toggleModals = (triggerBtn, overlay, state, titleBar = null)=>{
+        document.querySelector(triggerBtn).addEventListener('click', ()=>{
+            document.querySelector(overlay).open = state
+            if(state && titleBar){
+                document.querySelector(titleBar).focus()
+            }
+        })
+    }

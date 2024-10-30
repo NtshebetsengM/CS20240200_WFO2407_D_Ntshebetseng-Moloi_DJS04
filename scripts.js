@@ -1,5 +1,5 @@
 import { books, authors, genres, BOOKS_PER_PAGE } from './data.js'
-import { renderPreview , populateGenreOptions} from './helpers.js';
+import { renderPreview , populateGenreOptions, toggleModals, toggleThemeDay, toggleThemeNight} from './helpers.js';
 
 let page = 1;
 let matches = books
@@ -20,13 +20,9 @@ populateGenreOptions(authors, authorsHtml, 'All Authors')
 document.querySelector('[data-search-authors]').appendChild(authorsHtml)
 
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    document.querySelector('[data-settings-theme]').value = 'night'
-    document.documentElement.style.setProperty('--color-dark', '255, 255, 255');
-    document.documentElement.style.setProperty('--color-light', '10, 10, 20');
+    toggleThemeNight()
 } else {
-    document.querySelector('[data-settings-theme]').value = 'day'
-    document.documentElement.style.setProperty('--color-dark', '10, 10, 20');
-    document.documentElement.style.setProperty('--color-light', '255, 255, 255');
+   toggleThemeDay()
 }
 
 document.querySelector('[data-list-button]').innerText = `Show more (${books.length - BOOKS_PER_PAGE})`
@@ -36,39 +32,24 @@ document.querySelector('[data-list-button]').innerHTML = `
     <span>Show more</span>
     <span class="list__remaining"> (${(matches.length - (page * BOOKS_PER_PAGE)) > 0 ? (matches.length - (page * BOOKS_PER_PAGE)) : 0})</span>
 `
+//toggling search, settings and list modals
+toggleModals('[data-search-cancel]','[data-search-overlay]', false)
+toggleModals('[data-settings-cancel]', '[data-settings-overlay]', false)
+toggleModals('[data-list-close]', '[data-list-active]', false)
+toggleModals('[data-header-settings]', '[data-settings-overlay]', true )
+toggleModals('[data-header-search]','[data-search-overlay]', true, '[data-search-title]')
 
-document.querySelector('[data-search-cancel]').addEventListener('click', () => {
-    document.querySelector('[data-search-overlay]').open = false
-})
 
-document.querySelector('[data-settings-cancel]').addEventListener('click', () => {
-    document.querySelector('[data-settings-overlay]').open = false
-})
-
-document.querySelector('[data-header-search]').addEventListener('click', () => {
-    document.querySelector('[data-search-overlay]').open = true 
-    document.querySelector('[data-search-title]').focus()
-})
-
-document.querySelector('[data-header-settings]').addEventListener('click', () => {
-    document.querySelector('[data-settings-overlay]').open = true 
-})
-
-document.querySelector('[data-list-close]').addEventListener('click', () => {
-    document.querySelector('[data-list-active]').open = false
-})
-
+//setting theme based on user input
 document.querySelector('[data-settings-form]').addEventListener('submit', (event) => {
     event.preventDefault()
     const formData = new FormData(event.target)
     const { theme } = Object.fromEntries(formData)
 
     if (theme === 'night') {
-        document.documentElement.style.setProperty('--color-dark', '255, 255, 255');
-        document.documentElement.style.setProperty('--color-light', '10, 10, 20');
+     toggleThemeNight
     } else {
-        document.documentElement.style.setProperty('--color-dark', '10, 10, 20');
-        document.documentElement.style.setProperty('--color-light', '255, 255, 255');
+     toggleThemeDay 
     }
     
     document.querySelector('[data-settings-overlay]').open = false
@@ -85,7 +66,9 @@ document.querySelector('[data-search-form]').addEventListener('submit', (event) 
 
         for (const singleGenre of book.genres) {
             if (genreMatch) break;
-            if (singleGenre === filters.genre) { genreMatch = true }
+            if (singleGenre === filters.genre) {
+                 genreMatch = true 
+                }
         }
 
         if (
