@@ -1,6 +1,6 @@
-import { authors, books, BOOKS_PER_PAGE, genres } from './data.js';
-import { checkingMatches, createPreviewButton, initializeApp, initializeBookPreviewListener, toggleMessageDisplay, toggleThemeDay, toggleThemeNight, updateShowMoreBtn } from './helpers.js';
-import { SELECTOR } from './selectors.js';
+import { authors, books, BOOKS_PER_PAGE, genres } from './utilities/data.js';
+import { checkingMatches, createPreviewButton, initializeApp, initializeBookPreviewListener, toggleMessageDisplay, toggleThemeDay, toggleThemeNight, updateShowMoreBtn } from './utilities/helpers.js';
+import { SELECTOR } from './utilities/selectors.js';
 
 const bookAppState = {
     page: 1,
