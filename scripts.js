@@ -1,7 +1,6 @@
 import { authors, books, BOOKS_PER_PAGE, genres } from './data.js';
-import { checkingMatches, createPreviewButton, initializeApp, initializeBookPreviewListener, toggleMessageDisplay, updateShowMoreBtn } from './helpers.js';
+import { checkingMatches, createPreviewButton, initializeApp, initializeBookPreviewListener, toggleMessageDisplay, toggleThemeDay, toggleThemeNight, updateShowMoreBtn } from './helpers.js';
 import { SELECTOR } from './selectors.js';
-
 
 const bookAppState = {
     page: 1,
@@ -10,10 +9,21 @@ const bookAppState = {
 
 const startingFragment = document.createDocumentFragment()
 
-initializeApp(bookAppState, authors, books, startingFragment, BOOKS_PER_PAGE, genres)
+
+
+//setting the theme based on user input
+document.querySelector(SELECTOR.settingsForm).addEventListener('submit', (event) => {
+    event.preventDefault()
+    const formData = new FormData(event.target)
+    const { theme } = Object.fromEntries(formData)
+     
+    theme === 'night' ? toggleThemeNight() : toggleThemeDay()
+
+    document.querySelector(SELECTOR.settingsOverlay).open = false
+})
 
 //filtering books based on search and rendering them
-document.querySelector('[data-search-form]').addEventListener('submit', (event) => {
+document.querySelector(SELECTOR.searchForm).addEventListener('submit', (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
     const { genre, title, author } = Object.fromEntries(formData);
@@ -61,6 +71,7 @@ document.querySelector(SELECTOR.listButton).addEventListener('click', () => {
     // Update the button status after displaying more books
     updateShowMoreBtn(bookAppState.matches.length, bookAppState.page, BOOKS_PER_PAGE);
 })
-
-initializeBookPreviewListener(SELECTOR.listItems, books, authors)
-updateShowMoreBtn(bookAppState.matches.length, bookAppState.page, BOOKS_PER_PAGE);
+document.addEventListener("DOMContentLoaded", () => {
+    initializeBookPreviewListener(SELECTOR.listItems, books, authors)
+    updateShowMoreBtn(bookAppState.matches.length, bookAppState.page, BOOKS_PER_PAGE);
+    initializeApp(bookAppState, authors, books, startingFragment, BOOKS_PER_PAGE, genres)} )

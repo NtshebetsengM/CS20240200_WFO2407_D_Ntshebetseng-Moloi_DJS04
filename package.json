@@ -1,0 +1,17 @@
+{
+  "name": "new-package",
+  "version": "1.0.0",
+  "description": "Dive into the delightful world of \"Book Connect,\" where literary adventures await at your fingertips! Browse, explore, and uncover your next great read from a vast, vibrant collection. Whether you're a fan of thrilling mysteries, epic fantasies, or heartwarming romances, \"Book Connect\" brings the magic of books directly to you. Happy reading!",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "lint": "eslint --ext .js --ignore-path .gitignore ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0"
+  }
+}

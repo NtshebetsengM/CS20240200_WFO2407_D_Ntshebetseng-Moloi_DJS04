@@ -62,17 +62,13 @@ export const populateGenreOptions = (options, html, defaultText)=>{
 
 
 
-export    const toggleThemeNight = () => {
-        document.querySelector('[data-settings-theme]').value = 'night'
+export const toggleThemeNight = () => {
         document.documentElement.style.setProperty('--color-dark', '255, 255, 255');
         document.documentElement.style.setProperty('--color-light', '10, 10, 20');
-    
     }
-export    const toggleThemeDay = () => {
-        document.querySelector('[data-settings-theme]').value = 'day'
+export const toggleThemeDay = () => {
         document.documentElement.style.setProperty('--color-dark', '10, 10, 20');
         document.documentElement.style.setProperty('--color-light', '255, 255, 255');
-    
     }
 
     /**
