@@ -9,8 +9,8 @@ import { SELECTOR } from "./selectors.js";
  */
 export const renderPreview = (matches, authors, BOOKS_PER_PAGE, startingFragment) => {
     for (const book of matches.slice(0, BOOKS_PER_PAGE)) {
-        const bookPreviewBtn = createPreviewButton(book, authors);
-        startingFragment.appendChild(bookPreviewBtn);
+        const bookPreviewBtn = createPreviewButton(book, authors)
+        startingFragment.appendChild(bookPreviewBtn)
     }
 };
 /**
@@ -24,9 +24,9 @@ export const renderPreview = (matches, authors, BOOKS_PER_PAGE, startingFragment
  * @returns {HTMLElement} - The constructed button element representing a book preview.
  */
 export function createPreviewButton({ id, image, title, author }, authors) {
-    const element = document.createElement('button');
-    element.classList = 'preview';
-    element.setAttribute('data-preview', id);
+    const element = document.createElement('button')
+    element.classList = 'preview'
+    element.setAttribute('data-preview', id)
 
     element.innerHTML = `
         <img class="preview__image" src="${image}" />
@@ -63,12 +63,12 @@ export const populateGenreOptions = (options, html, defaultText)=>{
 
 
 export const toggleThemeNight = () => {
-        document.documentElement.style.setProperty('--color-dark', '255, 255, 255');
-        document.documentElement.style.setProperty('--color-light', '10, 10, 20');
+        document.documentElement.style.setProperty('--color-dark', '255, 255, 255')
+        document.documentElement.style.setProperty('--color-light', '10, 10, 20')
     }
 export const toggleThemeDay = () => {
-        document.documentElement.style.setProperty('--color-dark', '10, 10, 20');
-        document.documentElement.style.setProperty('--color-light', '255, 255, 255');
+        document.documentElement.style.setProperty('--color-dark', '10, 10, 20')
+        document.documentElement.style.setProperty('--color-light', '255, 255, 255')
     }
 
     /**
@@ -100,17 +100,17 @@ export const toggleModals = (triggerBtn, overlay, state, titleBar = null)=>{
     export   const checkingMatches = (genre, title, author, books) => {
         
         const genreMatches = (bookGenres, filterGenre) => {
-            if (filterGenre === 'any') return true;
-            return bookGenres.includes(filterGenre);
-        };
+            if (filterGenre === 'any') return true
+            return bookGenres.includes(filterGenre)
+        }
     
         const titleMatches = (bookTitle, filterTitle) => {
-            return filterTitle.trim() === '' || bookTitle.toLowerCase().includes(filterTitle.toLowerCase());
-        };
+            return filterTitle.trim() === '' || bookTitle.toLowerCase().includes(filterTitle.toLowerCase())
+        }
     
         const authorMatches = (bookAuthor, filterAuthor) => {
-            return filterAuthor === 'any' || bookAuthor === filterAuthor;
-        };
+            return filterAuthor === 'any' || bookAuthor === filterAuthor
+        }
     
         const result = books.filter(book => 
             genreMatches(book.genres, genre) &&
@@ -126,9 +126,9 @@ export const toggleModals = (triggerBtn, overlay, state, titleBar = null)=>{
  */
 export const toggleMessageDisplay = (matchCount) => {
     if (matchCount < 1) {
-        document.querySelector('[data-list-message]').classList.add('list__message_show')
+        document.querySelector(SELECTOR.listMessage).classList.add('list__message_show')
     } else {
-        document.querySelector('[data-list-message]').classList.remove('list__message_show')
+        document.querySelector(SELECTOR.listMessage).classList.remove('list__message_show')
     }
 } 
 
@@ -139,7 +139,7 @@ export const toggleMessageDisplay = (matchCount) => {
  * @param {number} BOOKS_PER_PAGE 
  */
 export const updateShowMoreBtn = (matchCount, page, BOOKS_PER_PAGE ) => {
-    const showMoreButton = document.querySelector(SELECTOR.listButton)
+    const showMoreButton = document.querySelector(SELECTOR.listBtn)
     
     if (!showMoreButton){
         throw new Error('button not found')
@@ -161,9 +161,9 @@ export const updateShowMoreBtn = (matchCount, page, BOOKS_PER_PAGE ) => {
  */
 export const initializeBookPreviewListener = (bookListSelector, books, authors) => {
     document.querySelector(bookListSelector).addEventListener('click', (event) => {
-        const clickedBook = getClickedBook(event, books);
+        const clickedBook = getClickedBook(event, books)
         if (clickedBook) {
-            displayBookDetails(clickedBook, authors);
+            displayBookDetails(clickedBook, authors)
         }
     });
 };
@@ -192,12 +192,12 @@ export const initializeBookPreviewListener = (bookListSelector, books, authors) 
  * @param {Object} authors - object mapping author IDs to author names
  */
  const displayBookDetails = (book, authors) => {
-    const modal = document.querySelector('[data-list-active]')
-    const blurImage = document.querySelector('[data-list-blur]')
-    const mainImage = document.querySelector('[data-list-image]')
-    const titleElement = document.querySelector('[data-list-title]')
-    const subtitleElement = document.querySelector('[data-list-subtitle]')
-    const descriptionElement = document.querySelector('[data-list-description]')
+    const modal = document.querySelector(SELECTOR.listActive)
+    const blurImage = document.querySelector(SELECTOR.listBlur)
+    const mainImage = document.querySelector(SELECTOR.listImg)
+    const titleElement = document.querySelector(SELECTOR.listTitle)
+    const subtitleElement = document.querySelector(SELECTOR.listSubtitle)
+    const descriptionElement = document.querySelector(SELECTOR.listDescription)
 
     modal.open = true // Open the modal
     blurImage.src = book.image
@@ -207,7 +207,15 @@ export const initializeBookPreviewListener = (bookListSelector, books, authors) 
     descriptionElement.innerText = book.description
 }
 
-
+ /**
+  * 
+  * @param {object} bookAppState -application state object, containing the current page and books matched by filters
+  * @param {Object.<string, string>} authors - An object mapping author IDs to author names.
+  * @param {Array.<{id: string, title: string, author: string, genres: Array.<string>, published: string, description: string}>} books - Array of book objects, each with specific properties.
+  * @param {DocumentFragment} startingFragment - A DocumentFragment to hold initial book preview elements for efficient rendering.
+  * @param {number} BOOKS_PER_PAGE - The number of books displayed on each page.
+  * @param {Object.<string, string>} genres - An object mapping genre IDs to genre names.
+  */
 export const initializeApp = (bookAppState, authors, books, startingFragment,BOOKS_PER_PAGE, genres) =>{
     //abstracted rendering of books on page load into a function
     renderPreview(bookAppState.matches, authors, BOOKS_PER_PAGE, startingFragment)
@@ -216,23 +224,23 @@ export const initializeApp = (bookAppState, authors, books, startingFragment,BOO
     //creates the options within the search modal
     const genreHtml = document.createDocumentFragment()
     populateGenreOptions(genres, genreHtml, 'All Genres')
-    document.querySelector('[data-search-genres]').appendChild(genreHtml)
+    document.querySelector(SELECTOR.searchGenre).appendChild(genreHtml)
 
     const authorsHtml = document.createDocumentFragment()
     populateGenreOptions(authors, authorsHtml, 'All Authors')
-    document.querySelector('[data-search-authors]').appendChild(authorsHtml)
+    document.querySelector(SELECTOR.searchAuthor).appendChild(authorsHtml)
 
     const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     isDarkMode ? toggleThemeNight() : toggleThemeDay();
 
-    document.querySelector(SELECTOR.listButton).innerText = `Show more (${books.length - BOOKS_PER_PAGE})`
-    document.querySelector(SELECTOR.listButton).disabled = (bookAppState.matches.length - (bookAppState.page * BOOKS_PER_PAGE)) < 0
+    document.querySelector(SELECTOR.listBtn).innerText = `Show more (${books.length - BOOKS_PER_PAGE})`
+    document.querySelector(SELECTOR.listBtn).disabled = (bookAppState.matches.length - (bookAppState.page * BOOKS_PER_PAGE)) < 0
 
     //toggling search, settings and list modals
-    toggleModals('[data-search-cancel]',SELECTOR.searchOverlay, false)
-    toggleModals('[data-settings-cancel]', SELECTOR.settingsOverlay, false)
-    toggleModals('[data-list-close]', '[data-list-active]', false)
-    toggleModals('[data-header-settings]', SELECTOR.settingsOverlay, true )
-    toggleModals('[data-header-search]',SELECTOR.searchOverlay, true, '[data-search-title]')
+    toggleModals(SELECTOR.searchCancel,SELECTOR.searchOverlay, false)
+    toggleModals(SELECTOR.settingsCancel, SELECTOR.settingsOverlay, false)
+    toggleModals(SELECTOR.listClose, SELECTOR.listActive, false)
+    toggleModals(SELECTOR.headerSettings, SELECTOR.settingsOverlay, true )
+    toggleModals(SELECTOR.headerSearch, SELECTOR.searchOverlay, true, SELECTOR.searchTitle)
 
 }

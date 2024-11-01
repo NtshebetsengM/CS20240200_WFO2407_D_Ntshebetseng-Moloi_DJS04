@@ -24,9 +24,9 @@ document.querySelector(SELECTOR.settingsForm).addEventListener('submit', (event)
 
 //filtering books based on search and rendering them
 document.querySelector(SELECTOR.searchForm).addEventListener('submit', (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
-    const { genre, title, author } = Object.fromEntries(formData);
+    event.preventDefault()
+    const formData = new FormData(event.target)
+    const { genre, title, author } = Object.fromEntries(formData)
 
     bookAppState.page = 1
 
@@ -47,31 +47,32 @@ document.querySelector(SELECTOR.searchForm).addEventListener('submit', (event) =
     
     updateShowMoreBtn(bookAppState.matches.length, bookAppState.page, BOOKS_PER_PAGE)
 
-    window.scrollTo({top: 0, behavior: 'smooth'});
+    window.scrollTo({top: 0, behavior: 'smooth'})
     document.querySelector(SELECTOR.searchOverlay).open = false
 })
 
 //show more button functionality
-document.querySelector(SELECTOR.listButton).addEventListener('click', () => {
+document.querySelector(SELECTOR.listBtn).addEventListener('click', () => {
     const startIndex = bookAppState.page * BOOKS_PER_PAGE;
-    const newItemsToShow = bookAppState.matches.slice(startIndex, startIndex + BOOKS_PER_PAGE);
+    const newItemsToShow = bookAppState.matches.slice(startIndex, startIndex + BOOKS_PER_PAGE)
 
     // Render new items
     const fragment = document.createDocumentFragment();
     newItemsToShow.forEach((book) => {
-        const element = createPreviewButton(book, authors);
-        fragment.appendChild(element);
-    });
+        const element = createPreviewButton(book, authors)
+        fragment.appendChild(element)
+    })
 
-    document.querySelector(SELECTOR.listItems).appendChild(fragment);
+    document.querySelector(SELECTOR.listItems).appendChild(fragment)
     
     // Increment the page count
-    bookAppState.page += 1;
+    bookAppState.page += 1
 
     // Update the button status after displaying more books
-    updateShowMoreBtn(bookAppState.matches.length, bookAppState.page, BOOKS_PER_PAGE);
+    updateShowMoreBtn(bookAppState.matches.length, bookAppState.page, BOOKS_PER_PAGE)
 })
 document.addEventListener("DOMContentLoaded", () => {
     initializeBookPreviewListener(SELECTOR.listItems, books, authors)
-    updateShowMoreBtn(bookAppState.matches.length, bookAppState.page, BOOKS_PER_PAGE);
-    initializeApp(bookAppState, authors, books, startingFragment, BOOKS_PER_PAGE, genres)} )
+    updateShowMoreBtn(bookAppState.matches.length, bookAppState.page, BOOKS_PER_PAGE)
+    initializeApp(bookAppState, authors, books, startingFragment, BOOKS_PER_PAGE, genres)
+} )
