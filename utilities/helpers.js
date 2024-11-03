@@ -9,34 +9,29 @@ import { SELECTOR } from "./selectors.js";
  */
 export const renderPreview = (matches, authors, BOOKS_PER_PAGE, startingFragment) => {
   for (const book of matches.slice(0, BOOKS_PER_PAGE)) {
-    const bookPreviewBtn = createPreviewButton(book, authors)
+    const bookPreviewBtn = createBtnPreview(book, authors)
     startingFragment.appendChild(bookPreviewBtn)
   }
 };
+
 /**
- * Creates a preview button element for a book.
- * @param {Object} param0 - Object containing book information.
- * @param {string} param0.id - Unique identifier for the book.
- * @param {string} param0.image - URL for the book's cover image.
- * @param {string} param0.title - Title of the book.
- * @param {string} param0.author - Author ID of the book.
- * @param {Object} authors - Dictionary mapping author IDs to author names.
- * @returns {HTMLElement} - The constructed button element representing a book preview.
+ * Creates a preview button element for a book
+ * @param {Object} param0 - Book details.
+ * @param {string} param0.id - The ID of the book.
+ * @param {string} param0.image - The image URL of the book cover.
+ * @param {string} param0.title - The title of the book.
+ * @param {string} param0.author - The author ID.
+ * @param {Object} authors - A dictionary mapping author IDs to author names.
+ * @returns {HTMLElement} The created book preview element.
+  
  */
-export function createPreviewButton({ id, image, title, author }, authors) {
-  const element = document.createElement('button')
-  element.classList = 'preview'
+export function createBtnPreview({id, image, title, author }, authors){
+  const element = document.createElement('book-preview')
+  element.setAttribute('title', title)
+  element.setAttribute('image', image)
+  element.setAttribute('author', authors[author] )
   element.setAttribute('data-preview', id)
-
-  element.innerHTML = `
-        <img class="preview__image" src="${image}" />
-        <div class="preview__info">
-            <h3 class="preview__title">${title}</h3>
-            <div class="preview__author">${authors[author]}</div>
-        </div>
-    `;
-
-  return element;
+  return element
 }
 
 /**

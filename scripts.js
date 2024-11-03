@@ -1,7 +1,7 @@
 import { authors, books, BOOKS_PER_PAGE, genres } from './utilities/data.js';
 import {
   checkingMatches,
-  createPreviewButton,
+  createBtnPreview,
   initializeApp,
   initializeBookPreviewListener,
   toggleMessageDisplay,
@@ -46,7 +46,7 @@ document.querySelector(SELECTOR.searchForm).addEventListener('submit', (event) =
 
   const itemsToShow = bookAppState.matches.slice(0, BOOKS_PER_PAGE)
   itemsToShow.forEach((book)=> {
-    const element = createPreviewButton(book, authors)
+    const element = createBtnPreview(book, authors)
     newItems.appendChild(element)
   })
 
@@ -66,7 +66,7 @@ document.querySelector(SELECTOR.listBtn).addEventListener('click', () => {
   // Render new items
   const fragment = document.createDocumentFragment();
   newItemsToShow.forEach((book) => {
-    const element = createPreviewButton(book, authors)
+    const element = createBtnPreview(book, authors)
     fragment.appendChild(element)
   })
 

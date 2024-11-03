@@ -1,4 +1,4 @@
-
+/* eslint-disable max-len */
 export const BOOKS_PER_PAGE = 36;
 
 export const authors = {
@@ -305,7 +305,6 @@ export const books = [
       "cdd102f6-b3ad-4e1a-acfb-eb247dfdb547",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
 
-
     ],
     "popularity": 30,
     "title": "Dostoevsky: The Years of Ordeal, 1850-1859",
@@ -444,9 +443,6 @@ export const books = [
       "e5c0a16b-b375-4684-a7e7-0224ab6e52b7",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
 
-
-
-
     ],
     "popularity": 198,
     "title": "Havana: A Subtropical Delirium",
@@ -557,9 +553,6 @@ export const books = [
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
 
-
-
-
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e"
     ],
     "popularity": 48,
@@ -667,7 +660,6 @@ export const books = [
       "2d936adf-6f57-4bc5-886e-64d4505e0faf",
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
 
-
     ],
     "popularity": 25,
     "title": "That Lass O'Lowrie's",
@@ -703,7 +695,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "3ae699b8-0602-4f24-8428-bfefc17231da",
-
 
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e"
     ],
@@ -797,7 +788,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ca7c5e-ded1-4464-b620-5347314f7db0",
 
-
       "8c1e1ffb-35cf-431c-859d-3702bab6cbac"
     ],
     "popularity": 47,
@@ -850,8 +840,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
-
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a"
     ],
     "popularity": 1229,
@@ -885,7 +873,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
 
-
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
 
     ],
@@ -904,7 +891,6 @@ export const books = [
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
       "e147de22-6105-4665-aa63-16f986d1a153",
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
-
 
       "a74cda25-9978-4f7f-8afc-309734499b58"
     ],
@@ -941,7 +927,6 @@ export const books = [
       "5529038f-b01e-40f6-8bf2-b0489ce4f432",
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
-
 
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
@@ -1104,7 +1089,6 @@ export const books = [
       "8133574f-f163-4022-b128-372353550211",
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
       "fa4bd01a-9e37-47c1-b55c-485c8b4d5530"
@@ -1381,7 +1365,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
 
-
     ],
     "popularity": 79,
     "title": "Max Cleans Up",
@@ -1396,7 +1379,6 @@ export const books = [
     "genres": [
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "2afe9af7-23b7-4476-992e-609102106df5",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
@@ -1414,7 +1396,6 @@ export const books = [
     "id": "d16cfc87-584c-4f01-b5f5-ec3f0b33bb11",
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "76bfe832-8bde-4702-b921-f06d5b66332c",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
@@ -1560,8 +1541,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
-
-
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56"
     ],
@@ -1636,7 +1615,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
-
 
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8"
@@ -1877,7 +1855,6 @@ export const books = [
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "8133574f-f163-4022-b128-372353550211",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
 
@@ -1955,7 +1932,6 @@ export const books = [
 
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
-
 
     ],
     "popularity": 33,
@@ -2049,7 +2025,6 @@ export const books = [
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
-
 
       "ea705fea-896a-4ab6-90b0-83952e7f782a"
     ],
@@ -2271,8 +2246,6 @@ export const books = [
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
 
-
-
     ],
     "popularity": 112,
     "title": "How Good Do We Have to Be?: A New Understanding of Guilt and Forgiveness",
@@ -2383,7 +2356,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
 
-
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
       "c60e7571-371f-4985-a3eb-97f7d3330e92"
     ],
@@ -2420,7 +2392,6 @@ export const books = [
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
     ],
     "popularity": 16,
     "title": "Time Management",
@@ -2433,7 +2404,6 @@ export const books = [
   {
     "id": "219acba1-7d92-4bb2-879a-079721dbe39c",
     "genres": [
-
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
@@ -2454,7 +2424,6 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "5439a895-20a8-421a-981d-43f99b521cb5",
-
 
       "a4f80b3e-3e96-4266-b729-e09b71793182",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
@@ -2565,7 +2534,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "765b17c6-09d5-4484-8542-14e60aa426e6",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6"
@@ -2584,7 +2552,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
-
 
       "92c653cb-99cb-4ef7-9032-110a1e555148",
 
@@ -2622,7 +2589,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "765b17c6-09d5-4484-8542-14e60aa426e6",
-
 
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
 
@@ -2663,7 +2629,6 @@ export const books = [
 
       "92c653cb-99cb-4ef7-9032-110a1e555148",
 
-
     ],
     "popularity": 470,
     "title": "Black Holes and Baby Universes and Other Essays",
@@ -2682,7 +2647,6 @@ export const books = [
       "8133574f-f163-4022-b128-372353550211",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
 
-
     ],
     "popularity": 3569,
     "title": "The Demon-Haunted World: Science as a Candle in the Dark",
@@ -2697,7 +2661,6 @@ export const books = [
     "genres": [
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
-
 
     ],
     "popularity": 37,
@@ -2717,7 +2680,6 @@ export const books = [
 
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
 
-
     ],
     "popularity": 56,
     "title": "Yoko Writes Her Name",
@@ -2735,7 +2697,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
       "42d04f55-18ff-4476-b1b0-106401738e0a",
-
 
     ],
     "popularity": 1700,
@@ -2866,7 +2827,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
 
-
     ],
     "popularity": 73,
     "title": "Different Dances",
@@ -2899,8 +2859,6 @@ export const books = [
     "id": "e74bc643-0657-4d30-81b1-575453763b8a",
     "genres": [
       "c2d9e8fa-c69e-4468-ae72-0fde54520863",
-
-
 
       "bb50b245-4f41-4bab-aea9-56cc0b6a7f7d",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
@@ -2959,7 +2917,6 @@ export const books = [
       "676c4a6d-2074-4d32-bd38-ad805432a285",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
     ],
     "popularity": 44,
     "title": "Bryson's Dictionary for Writers and Editors",
@@ -2976,7 +2933,6 @@ export const books = [
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
-
 
       "8133574f-f163-4022-b128-372353550211"
     ],
@@ -3182,8 +3138,6 @@ export const books = [
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
 
-
-
       "4b082b54-6dac-4079-9be2-a74b9111b9b2"
     ],
     "popularity": 2062,
@@ -3217,7 +3171,6 @@ export const books = [
       "8c1e1ffb-35cf-431c-859d-3702bab6cbac",
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
-
 
     ],
     "popularity": 202,
@@ -3347,7 +3300,6 @@ export const books = [
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
 
-
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
 
     ],
@@ -3404,8 +3356,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
-
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8"
     ],
     "popularity": 242,
@@ -3460,7 +3410,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
       "8133574f-f163-4022-b128-372353550211",
-
 
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
 
@@ -3554,7 +3503,6 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
-
 
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
@@ -3651,7 +3599,6 @@ export const books = [
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
       "5529038f-b01e-40f6-8bf2-b0489ce4f432",
 
-
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a"
     ],
     "popularity": 64,
@@ -3727,7 +3674,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
 
-
       "4b082b54-6dac-4079-9be2-a74b9111b9b2"
     ],
     "popularity": 141,
@@ -3784,7 +3730,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
-
 
     ],
     "popularity": 21,
@@ -3911,8 +3856,6 @@ export const books = [
     "id": "22dc65dc-68fb-4018-8f26-d2b5123dd700",
     "genres": [
 
-
-
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e5c0a16b-b375-4684-a7e7-0224ab6e52b7",
 
@@ -4011,7 +3954,6 @@ export const books = [
 
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
 
-
     ],
     "popularity": 433,
     "title": "Lyndon Johnson and the American Dream",
@@ -4025,7 +3967,6 @@ export const books = [
     "id": "c881b22f-1a01-4786-a016-387090f33e89",
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "8133574f-f163-4022-b128-372353550211"
     ],
@@ -4101,8 +4042,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
 
-
-
       "1a68857f-92ae-490a-9395-30b8e15613b0"
     ],
     "popularity": 369,
@@ -4118,7 +4057,6 @@ export const books = [
     "genres": [
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
 
@@ -4177,7 +4115,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
     ],
     "popularity": 671,
     "title": "The Missing Piece Meets the Big O",
@@ -4233,7 +4170,6 @@ export const books = [
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
       "76bfe832-8bde-4702-b921-f06d5b66332c",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
-
 
     ],
     "popularity": 18319,
@@ -4397,7 +4333,6 @@ export const books = [
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
-
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56"
     ],
@@ -4508,8 +4443,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "3ae699b8-0602-4f24-8428-bfefc17231da",
 
-
-
     ],
     "popularity": 175,
     "title": "The End of Nature",
@@ -4565,7 +4498,6 @@ export const books = [
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
-
 
     ],
     "popularity": 44,
@@ -4770,7 +4702,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
     ],
     "popularity": 13,
     "title": "Lewis Carroll's Symbolic Logic",
@@ -4803,7 +4734,6 @@ export const books = [
     "genres": [
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad",
       "a74cda25-9978-4f7f-8afc-309734499b58",
-
 
       "2a5ac457-9325-4723-9ca1-19da384b2833",
       "5544cf7a-0f35-4576-a0eb-d01bc634655b",
@@ -4860,7 +4790,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
 
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
-
 
     ],
     "popularity": 193,
@@ -4953,7 +4882,6 @@ export const books = [
       "3ae699b8-0602-4f24-8428-bfefc17231da",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
 
-
     ],
     "popularity": 3770,
     "title": "The World Without Us",
@@ -4991,7 +4919,6 @@ export const books = [
       "1e5b0c5c-1c4c-4ec5-958b-b4b6fb7c1720",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
 
-
     ],
     "popularity": 209,
     "title": "Yo no vengo a decir un discurso",
@@ -5007,7 +4934,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "0d4c8560-b7de-47d5-a204-3651b59f7e1b",
       "c23ff9df-3401-46f6-83dd-9d8caaae3b8c",
-
 
       "f628a79e-ff62-432b-8710-e87f8d5a84c0",
 
@@ -5116,7 +5042,6 @@ export const books = [
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
       "e34b00fd-8daf-44eb-a257-d3381c457044",
 
-
     ],
     "popularity": 77,
     "title": "Jane Eyre / Les Hauts de Hurle-Vent / Agnes Grey",
@@ -5152,7 +5077,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "92c653cb-99cb-4ef7-9032-110a1e555148",
-
 
       "e147de22-6105-4665-aa63-16f986d1a153"
     ],
@@ -5190,8 +5114,6 @@ export const books = [
       "5529038f-b01e-40f6-8bf2-b0489ce4f432",
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "76bfe832-8bde-4702-b921-f06d5b66332c",
-
-
 
     ],
     "popularity": 42305,
@@ -5303,8 +5225,6 @@ export const books = [
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
 
-
-
       "604fa99a-9c17-41c5-a23c-92a033a93cea"
     ],
     "popularity": 8740,
@@ -5360,7 +5280,6 @@ export const books = [
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
       "e34b00fd-8daf-44eb-a257-d3381c457044",
-
 
       "abc8c400-2063-4790-92eb-810c9eeabdb6"
     ],
@@ -5495,7 +5414,6 @@ export const books = [
 
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
 
-
     ],
     "popularity": 40,
     "title": "My Day: The Best of Eleanor Roosevelt's Acclaimed Newspaper Columns 1936-62",
@@ -5545,8 +5463,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
 
-
-
       "c60e7571-371f-4985-a3eb-97f7d3330e92"
     ],
     "popularity": 454,
@@ -5584,7 +5500,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
       "676c4a6d-2074-4d32-bd38-ad805432a285",
-
 
     ],
     "popularity": 14,
@@ -5673,8 +5588,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
-
-
 
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18"
     ],
@@ -5770,7 +5683,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
       "676c4a6d-2074-4d32-bd38-ad805432a285",
-
 
     ],
     "popularity": 22,
@@ -5897,8 +5809,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
 
-
-
       "1a68857f-92ae-490a-9395-30b8e15613b0",
       "cf160880-b4f5-45e3-936d-269605d21778"
     ],
@@ -5916,9 +5826,7 @@ export const books = [
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
-
 
     ],
     "popularity": 69,
@@ -5970,7 +5878,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
 
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
-
 
       "92c653cb-99cb-4ef7-9032-110a1e555148"
     ],
@@ -6058,7 +5965,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
 
-
       "f628a79e-ff62-432b-8710-e87f8d5a84c0",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
       "3ae699b8-0602-4f24-8428-bfefc17231da"
@@ -6135,7 +6041,6 @@ export const books = [
 
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
 
-
       "3ae699b8-0602-4f24-8428-bfefc17231da",
 
     ],
@@ -6207,10 +6112,8 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "676c4a6d-2074-4d32-bd38-ad805432a285",
       "5544cf7a-0f35-4576-a0eb-d01bc634655b",
-
 
     ],
     "popularity": 5188,
@@ -6305,7 +6208,6 @@ export const books = [
 
       "8133574f-f163-4022-b128-372353550211",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
-
 
     ],
     "popularity": 2441,
@@ -6449,7 +6351,6 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
 
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
@@ -6468,10 +6369,8 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18",
-
 
     ],
     "popularity": 103,
@@ -6508,8 +6407,6 @@ export const books = [
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
 
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
-
-
 
     ],
     "popularity": 50,
@@ -6601,7 +6498,6 @@ export const books = [
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18",
 
-
     ],
     "popularity": 243,
     "title": "The One Hundred: A Guide to the Pieces Every Stylish Woman Must Own",
@@ -6638,7 +6534,6 @@ export const books = [
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
       "8133574f-f163-4022-b128-372353550211",
 
-
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56"
     ],
     "popularity": 84,
@@ -6673,10 +6568,7 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
-
       "3ae699b8-0602-4f24-8428-bfefc17231da",
-
 
     ],
     "popularity": 33,
@@ -6695,7 +6587,6 @@ export const books = [
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
       "8e53cc1b-927c-4f42-aee6-69d5f8b07e0c",
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad",
-
 
     ],
     "popularity": 1548,
@@ -6772,7 +6663,6 @@ export const books = [
 
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
 
-
     ],
     "popularity": 11,
     "title": "De dagboeken van Anne Frank",
@@ -6829,7 +6719,6 @@ export const books = [
       "1e5b0c5c-1c4c-4ec5-958b-b4b6fb7c1720",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
     ],
     "popularity": 46,
     "title": "A Manual for Manuel",
@@ -6864,7 +6753,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
-
 
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8"
@@ -6902,8 +6790,6 @@ export const books = [
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "8133574f-f163-4022-b128-372353550211",
-
-
 
     ],
     "popularity": 777,
@@ -6993,7 +6879,6 @@ export const books = [
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
       "1a68857f-92ae-490a-9395-30b8e15613b0",
 
-
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a"
     ],
@@ -7011,7 +6896,6 @@ export const books = [
 
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad",
-
 
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18",
 
@@ -7459,8 +7343,6 @@ export const books = [
       "c23ff9df-3401-46f6-83dd-9d8caaae3b8c",
       "0d4c8560-b7de-47d5-a204-3651b59f7e1b",
 
-
-
       "ea705fea-896a-4ab6-90b0-83952e7f782a"
     ],
     "popularity": 581,
@@ -7479,7 +7361,6 @@ export const books = [
       "676c4a6d-2074-4d32-bd38-ad805432a285",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
-
 
     ],
     "popularity": 13,
@@ -7531,7 +7412,6 @@ export const books = [
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
       "a74cda25-9978-4f7f-8afc-309734499b58",
-
 
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad",
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e"
@@ -7657,7 +7537,6 @@ export const books = [
     "id": "432e8147-1c8c-4713-bf93-b85340cb3189",
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "2afe9af7-23b7-4476-992e-609102106df5",
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
@@ -7965,7 +7844,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
 
-
     ],
     "popularity": 76,
     "title": "Psycho by the Sea",
@@ -8019,8 +7897,6 @@ export const books = [
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
-
-
 
       "e147de22-6105-4665-aa63-16f986d1a153"
     ],
@@ -8213,7 +8089,6 @@ export const books = [
     "id": "ecaa98ab-ff38-4991-ae24-4b67a3ba8777",
     "genres": [
 
-
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56"
@@ -8291,7 +8166,6 @@ export const books = [
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
       "8133574f-f163-4022-b128-372353550211",
 
-
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad"
     ],
     "popularity": 747,
@@ -8311,7 +8185,6 @@ export const books = [
       "3ae699b8-0602-4f24-8428-bfefc17231da",
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
 
-
     ],
     "popularity": 260,
     "title": "Oaxaca Journal",
@@ -8326,7 +8199,6 @@ export const books = [
     "genres": [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "765b17c6-09d5-4484-8542-14e60aa426e6",
 
@@ -8345,8 +8217,6 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "92c653cb-99cb-4ef7-9032-110a1e555148",
-
-
 
       "5544cf7a-0f35-4576-a0eb-d01bc634655b"
     ],
@@ -8418,7 +8288,6 @@ export const books = [
   {
     "id": "782c8ffb-ea2d-45a4-a6a3-449fce34dd2b",
     "genres": [
-
 
     ],
     "popularity": 18,
@@ -8603,7 +8472,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad",
 
-
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18",
 
     ],
@@ -8716,7 +8584,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
       "765b17c6-09d5-4484-8542-14e60aa426e6",
 
@@ -8735,7 +8602,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "c23ff9df-3401-46f6-83dd-9d8caaae3b8c",
       "0d4c8560-b7de-47d5-a204-3651b59f7e1b",
-
 
       "f628a79e-ff62-432b-8710-e87f8d5a84c0",
       "2dc8daea-9a6b-4028-97e2-767d0248678f"
@@ -8774,8 +8640,6 @@ export const books = [
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
-
-
 
     ],
     "popularity": 171972,
@@ -9078,7 +8942,6 @@ export const books = [
       "5544cf7a-0f35-4576-a0eb-d01bc634655b",
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
 
-
       "4d2dcae4-41bb-4f74-9765-fca40e8a94d6"
     ],
     "popularity": 115,
@@ -9174,7 +9037,6 @@ export const books = [
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
 
-
     ],
     "popularity": 5129,
     "title": "Brief Answers to the Big Questions",
@@ -9210,8 +9072,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
-
-
 
     ],
     "popularity": 7892,
@@ -9304,7 +9164,6 @@ export const books = [
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
       "5544cf7a-0f35-4576-a0eb-d01bc634655b",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8"
@@ -9380,9 +9239,7 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
 
-
       "4b082b54-6dac-4079-9be2-a74b9111b9b2",
-
 
     ],
     "popularity": 197,
@@ -9439,7 +9296,6 @@ export const books = [
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
 
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
-
 
     ],
     "popularity": 12,
@@ -9563,7 +9419,6 @@ export const books = [
   {
     "id": "26680096-9a08-4415-91f4-f52bc4ef18dd",
     "genres": [
-
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "676c4a6d-2074-4d32-bd38-ad805432a285",
@@ -9697,7 +9552,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
 
-
     ],
     "popularity": 93,
     "title": "The Doctor and the Soul: From Psychotherapy to Logotherapy",
@@ -9735,7 +9589,6 @@ export const books = [
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
       "a74cda25-9978-4f7f-8afc-309734499b58",
 
-
     ],
     "popularity": 111,
     "title": "Why Did the Chicken Cross the Road?",
@@ -9750,7 +9603,6 @@ export const books = [
     "genres": [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
-
 
       "cf160880-b4f5-45e3-936d-269605d21778",
 
@@ -10030,7 +9882,6 @@ export const books = [
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
-
 
     ],
     "popularity": 6468,
@@ -10720,8 +10571,6 @@ export const books = [
 
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
 
-
-
     ],
     "popularity": 245,
     "title": "Milk! A 10,000-Year Food Fracas",
@@ -10832,7 +10681,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
 
-
       "1a68857f-92ae-490a-9395-30b8e15613b0",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
@@ -10851,8 +10699,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
-
-
 
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56"
     ],
@@ -11274,7 +11120,6 @@ export const books = [
       "0d4c8560-b7de-47d5-a204-3651b59f7e1b",
       "c23ff9df-3401-46f6-83dd-9d8caaae3b8c",
 
-
       "f628a79e-ff62-432b-8710-e87f8d5a84c0",
       "61c911f1-cbf5-48bf-9df9-d32d4506badb"
     ],
@@ -11520,7 +11365,6 @@ export const books = [
       "765b17c6-09d5-4484-8542-14e60aa426e6",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
 
-
       "7e1145c8-d7fb-49b4-81e2-611958b388e6"
     ],
     "popularity": 1531,
@@ -11539,7 +11383,6 @@ export const books = [
       "1e5b0c5c-1c4c-4ec5-958b-b4b6fb7c1720",
       "91e25438-558a-410d-a4b4-17b2f26bcb11",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
-
 
     ],
     "popularity": 436,
@@ -11614,8 +11457,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "3ae699b8-0602-4f24-8428-bfefc17231da",
-
-
 
     ],
     "popularity": 33,
@@ -11743,7 +11584,6 @@ export const books = [
   {
     "id": "d2e1f1b6-0f2f-474f-bcc1-3f6486fe99a8",
     "genres": [
-
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "92c653cb-99cb-4ef7-9032-110a1e555148",
@@ -12334,7 +12174,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
-
       "cf160880-b4f5-45e3-936d-269605d21778",
 
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56"
@@ -12393,7 +12232,6 @@ export const books = [
       "b8a70f22-c66a-4792-86dc-400b00bda08c",
       "cf160880-b4f5-45e3-936d-269605d21778",
 
-
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8"
     ],
     "popularity": 17,
@@ -12411,7 +12249,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
       "8133574f-f163-4022-b128-372353550211",
-
 
       "765b17c6-09d5-4484-8542-14e60aa426e6"
     ],
@@ -12506,8 +12343,6 @@ export const books = [
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
       "cf160880-b4f5-45e3-936d-269605d21778",
-
-
 
     ],
     "popularity": 313,
@@ -12665,7 +12500,6 @@ export const books = [
       "5439a895-20a8-421a-981d-43f99b521cb5",
       "a4f80b3e-3e96-4266-b729-e09b71793182",
 
-
     ],
     "popularity": 19,
     "title": "Pacific Rift: Why Americans and Japanese Don't Understand Each Other",
@@ -12754,7 +12588,6 @@ export const books = [
 
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
 
-
       "7e1145c8-d7fb-49b4-81e2-611958b388e6"
     ],
     "popularity": 51,
@@ -12772,8 +12605,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
-
-
 
     ],
     "popularity": 3777,
@@ -12808,7 +12639,6 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
-
 
       "1e5b0c5c-1c4c-4ec5-958b-b4b6fb7c1720",
 
@@ -12882,7 +12712,6 @@ export const books = [
       "76bfe832-8bde-4702-b921-f06d5b66332c",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
 
-
       "a74cda25-9978-4f7f-8afc-309734499b58"
     ],
     "popularity": 48,
@@ -12920,8 +12749,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "8133574f-f163-4022-b128-372353550211",
 
-
-
     ],
     "popularity": 511,
     "title": "Letters to Malcolm: Chiefly on Prayer",
@@ -12937,7 +12764,6 @@ export const books = [
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "8133574f-f163-4022-b128-372353550211",
-
 
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
 
@@ -13087,9 +12913,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
-
-
-
     ],
     "popularity": 377,
     "title": "Fighting Ruben Wolfe",
@@ -13220,8 +13043,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
-
-
 
     ],
     "popularity": 591,
@@ -13448,7 +13269,6 @@ export const books = [
 
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
 
-
     ],
     "popularity": 959,
     "title": "Wilding",
@@ -13650,7 +13470,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
-
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18",
 
       "cf160880-b4f5-45e3-936d-269605d21778"
@@ -13841,7 +13660,6 @@ export const books = [
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
 
       "a74cda25-9978-4f7f-8afc-309734499b58",
-
 
     ],
     "popularity": 167,
@@ -14086,7 +13904,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
 
-
       "92c653cb-99cb-4ef7-9032-110a1e555148"
     ],
     "popularity": 17,
@@ -14104,7 +13921,6 @@ export const books = [
 
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
 
-
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d"
     ],
@@ -14121,7 +13937,6 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
-
 
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
       "e147de22-6105-4665-aa63-16f986d1a153",
@@ -14141,8 +13956,6 @@ export const books = [
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "5529038f-b01e-40f6-8bf2-b0489ce4f432",
-
-
 
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a"
     ],
@@ -14408,7 +14221,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
-
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
     ],
@@ -14560,7 +14372,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
 
-
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18",
       "ea705fea-896a-4ab6-90b0-83952e7f782a"
     ],
@@ -14634,9 +14445,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
-
-
-
 
     ],
     "popularity": 218,
@@ -14765,9 +14573,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "765b17c6-09d5-4484-8542-14e60aa426e6",
-
-
-
 
     ],
     "popularity": 529,
@@ -14976,7 +14781,6 @@ export const books = [
       "0d4c8560-b7de-47d5-a204-3651b59f7e1b",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
-
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56"
     ],
     "popularity": 15440,
@@ -15032,8 +14836,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
-
-
 
     ],
     "popularity": 35,
@@ -15104,7 +14906,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e5c0a16b-b375-4684-a7e7-0224ab6e52b7",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
-
 
       "1e5b0c5c-1c4c-4ec5-958b-b4b6fb7c1720",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8"
@@ -15255,8 +15056,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
-
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a"
     ],
     "popularity": 549,
@@ -15311,7 +15110,6 @@ export const books = [
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
-
 
       "676c4a6d-2074-4d32-bd38-ad805432a285",
 
@@ -15386,7 +15184,6 @@ export const books = [
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
 
-
     ],
     "popularity": 582,
     "title": "The River of Consciousness",
@@ -15401,7 +15198,6 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
-
 
       "5544cf7a-0f35-4576-a0eb-d01bc634655b",
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
@@ -15551,7 +15347,6 @@ export const books = [
       "4d2dcae4-41bb-4f74-9765-fca40e8a94d6",
       "87b7feaf-6829-4d6f-8a08-4abd3f674e18",
 
-
     ],
     "popularity": 43,
     "title": "Jacob's Hands: A Fable",
@@ -15683,7 +15478,6 @@ export const books = [
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
       "5544cf7a-0f35-4576-a0eb-d01bc634655b",
 
-
       "676c4a6d-2074-4d32-bd38-ad805432a285"
     ],
     "popularity": 62,
@@ -15759,7 +15553,6 @@ export const books = [
 
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
-
 
     ],
     "popularity": 236,
@@ -15904,8 +15697,6 @@ export const books = [
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "676c4a6d-2074-4d32-bd38-ad805432a285",
 
-
-
     ],
     "popularity": 25,
     "title": "The Lynne Truss Treasury: Columns and Three Comic Novels",
@@ -16035,7 +15826,6 @@ export const books = [
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
       "4d2dcae4-41bb-4f74-9765-fca40e8a94d6",
 
-
     ],
     "popularity": 31,
     "title": "The Secret",
@@ -16124,8 +15914,6 @@ export const books = [
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
       "e5c0a16b-b375-4684-a7e7-0224ab6e52b7",
 
-
-
     ],
     "popularity": 329,
     "title": "The Island of the Colorblind",
@@ -16142,8 +15930,6 @@ export const books = [
 
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
-
-
 
     ],
     "popularity": 2666,
@@ -16200,8 +15986,6 @@ export const books = [
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "92c653cb-99cb-4ef7-9032-110a1e555148",
 
-
-
     ],
     "popularity": 26,
     "title": "Choice Cuts: A Savory Selection of Food Writing from Around the World and Throughout History",
@@ -16218,7 +16002,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
-
 
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08"
     ],
@@ -16352,7 +16135,6 @@ export const books = [
       "5529038f-b01e-40f6-8bf2-b0489ce4f432",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
-
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad"
     ],
     "popularity": 122,
@@ -16387,7 +16169,6 @@ export const books = [
     "genres": [
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
-
 
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
@@ -16425,10 +16206,8 @@ export const books = [
     "genres": [
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
 
-
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
-
 
     ],
     "popularity": 11,
@@ -16446,8 +16225,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
-
-
 
     ],
     "popularity": 22,
@@ -16483,7 +16260,6 @@ export const books = [
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
 
-
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "76bfe832-8bde-4702-b921-f06d5b66332c",
 
@@ -16501,7 +16277,6 @@ export const books = [
     "genres": [
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
-
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a"
     ],
@@ -16616,7 +16391,6 @@ export const books = [
       "2dc8daea-9a6b-4028-97e2-767d0248678f",
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad",
       "a74cda25-9978-4f7f-8afc-309734499b58",
-
 
     ],
     "popularity": 244,
@@ -17106,7 +16880,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
 
-
       "676c4a6d-2074-4d32-bd38-ad805432a285"
     ],
     "popularity": 66,
@@ -17283,7 +17056,6 @@ export const books = [
 
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
 
-
     ],
     "popularity": 66,
     "title": "Max's Dragon Shirt",
@@ -17394,7 +17166,6 @@ export const books = [
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
 
-
     ],
     "popularity": 42,
     "title": "Bill Bryson: The Complete Notes",
@@ -17449,8 +17220,6 @@ export const books = [
       "2dc8daea-9a6b-4028-97e2-767d0248678f",
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
       "a74cda25-9978-4f7f-8afc-309734499b58",
-
-
 
     ],
     "popularity": 1076,
@@ -17598,8 +17367,6 @@ export const books = [
       "8133574f-f163-4022-b128-372353550211",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
-
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
       "fa4bd01a-9e37-47c1-b55c-485c8b4d5530"
     ],
@@ -17655,7 +17422,6 @@ export const books = [
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
 
     ],
@@ -17706,7 +17472,6 @@ export const books = [
     "id": "3f2f7f55-f99f-400b-9e31-48ed2f629dd6",
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "676c4a6d-2074-4d32-bd38-ad805432a285",
 
@@ -17766,8 +17531,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
-
-
 
     ],
     "popularity": 1413,
@@ -18174,7 +17937,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
 
-
       "76bfe832-8bde-4702-b921-f06d5b66332c"
     ],
     "popularity": 43,
@@ -18285,7 +18047,6 @@ export const books = [
     "genres": [
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "92c653cb-99cb-4ef7-9032-110a1e555148",
 
@@ -18490,11 +18251,8 @@ export const books = [
     "id": "ef988a03-0db7-4b9d-8c0c-aa929cc88e75",
     "genres": [
 
-
       "8133574f-f163-4022-b128-372353550211",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
-
 
     ],
     "popularity": 90,
@@ -18568,7 +18326,6 @@ export const books = [
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
-
 
       "3ae699b8-0602-4f24-8428-bfefc17231da"
     ],
@@ -18741,7 +18498,6 @@ export const books = [
 
       "676c4a6d-2074-4d32-bd38-ad805432a285",
 
-
     ],
     "popularity": 19,
     "title": "Hexaflexagons and Other Mathematical Diversions",
@@ -18776,9 +18532,7 @@ export const books = [
       "8133574f-f163-4022-b128-372353550211",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
-
 
     ],
     "popularity": 99,
@@ -18943,7 +18697,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "2a5ac457-9325-4723-9ca1-19da384b2833",
 
-
       "e34b00fd-8daf-44eb-a257-d3381c457044",
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad"
     ],
@@ -19093,7 +18846,6 @@ export const books = [
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
 
-
     ],
     "popularity": 694,
     "title": "Nanaville: Adventures in Grandparenting",
@@ -19110,7 +18862,6 @@ export const books = [
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
 
       "a74cda25-9978-4f7f-8afc-309734499b58",
-
 
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad"
     ],
@@ -19260,7 +19011,6 @@ export const books = [
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
       "a74cda25-9978-4f7f-8afc-309734499b58",
 
-
     ],
     "popularity": 125,
     "title": "McDuff Moves in",
@@ -19275,10 +19025,6 @@ export const books = [
     "genres": [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
-
-
-
-
 
     ],
     "popularity": 120,
@@ -19297,7 +19043,6 @@ export const books = [
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "3ae699b8-0602-4f24-8428-bfefc17231da",
-
 
     ],
     "popularity": 29,
@@ -19327,7 +19072,6 @@ export const books = [
     "genres": [
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
-
 
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
@@ -19435,9 +19179,6 @@ export const books = [
     "genres": [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
-
-
-
 
       "cf160880-b4f5-45e3-936d-269605d21778"
     ],
@@ -19569,7 +19310,6 @@ export const books = [
       "5529038f-b01e-40f6-8bf2-b0489ce4f432",
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
-
 
       "8c1e1ffb-35cf-431c-859d-3702bab6cbac",
       "cf160880-b4f5-45e3-936d-269605d21778"
@@ -19966,7 +19706,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
 
-
       "76bfe832-8bde-4702-b921-f06d5b66332c",
 
     ],
@@ -20018,7 +19757,6 @@ export const books = [
 
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
       "a74cda25-9978-4f7f-8afc-309734499b58",
-
 
     ],
     "popularity": 54,
@@ -20364,8 +20102,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
 
-
-
       "c60e7571-371f-4985-a3eb-97f7d3330e92"
     ],
     "popularity": 613,
@@ -20420,9 +20156,6 @@ export const books = [
 
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
-
-
 
     ],
     "popularity": 424,
@@ -20531,7 +20264,6 @@ export const books = [
 
       "a74cda25-9978-4f7f-8afc-309734499b58",
 
-
     ],
     "popularity": 12,
     "title": "Christmas 1940",
@@ -20564,8 +20296,6 @@ export const books = [
     "id": "84e92836-c0f3-46d1-8c98-00d678258415",
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
-
 
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
@@ -20606,7 +20336,6 @@ export const books = [
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
       "92c653cb-99cb-4ef7-9032-110a1e555148",
-
 
     ],
     "popularity": 57,
@@ -20663,7 +20392,6 @@ export const books = [
       "8133574f-f163-4022-b128-372353550211",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad"
     ],
     "popularity": 7143,
@@ -20716,7 +20444,6 @@ export const books = [
     "id": "1b813280-ca74-4aa2-99e3-70e7129dfdf7",
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
@@ -20812,7 +20539,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "92c653cb-99cb-4ef7-9032-110a1e555148",
 
     ],
@@ -20890,7 +20616,6 @@ export const books = [
       "3ae699b8-0602-4f24-8428-bfefc17231da",
       "a4f80b3e-3e96-4266-b729-e09b71793182",
 
-
     ],
     "popularity": 228,
     "title": "Countdown: Our Last Best Hope for a Future on Earth?",
@@ -20947,7 +20672,6 @@ export const books = [
       "e147de22-6105-4665-aa63-16f986d1a153",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
     ],
     "popularity": 134715,
     "title": "The Book Thief",
@@ -20963,7 +20687,6 @@ export const books = [
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
-
 
       "5439a895-20a8-421a-981d-43f99b521cb5"
     ],
@@ -21055,7 +20778,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
-
 
       "eabc350f-223e-46d2-acc4-6670369562d5",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d"
@@ -21362,7 +21084,6 @@ export const books = [
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
       "2afe9af7-23b7-4476-992e-609102106df5",
 
-
     ],
     "popularity": 169,
     "title": "Nonviolence: Twenty-Five Lessons from the History of a Dangerous Idea",
@@ -21498,7 +21219,6 @@ export const books = [
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
       "a74cda25-9978-4f7f-8afc-309734499b58",
 
-
       "8133574f-f163-4022-b128-372353550211",
       "cf160880-b4f5-45e3-936d-269605d21778",
 
@@ -21557,7 +21277,6 @@ export const books = [
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
       "52d7e271-9497-4c07-b051-edd819f1508e",
 
-
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae"
     ],
     "popularity": 43,
@@ -21615,7 +21334,6 @@ export const books = [
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
 
-
     ],
     "popularity": 193,
     "title": "Oil and Honey: The Education of an Unlikely Activist",
@@ -21633,7 +21351,6 @@ export const books = [
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
       "0d4c8560-b7de-47d5-a204-3651b59f7e1b",
-
 
     ],
     "popularity": 53920,
@@ -21690,7 +21407,6 @@ export const books = [
 
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56",
 
-
       "c60e7571-371f-4985-a3eb-97f7d3330e92"
     ],
     "popularity": 8216,
@@ -21728,8 +21444,6 @@ export const books = [
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
-
     ],
     "popularity": 79976,
     "title": "The Perks of Being a Wallflower",
@@ -21761,7 +21475,6 @@ export const books = [
   {
     "id": "4d595cea-7f86-412e-96c3-3fec038bb21b",
     "genres": [
-
 
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad",
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
@@ -21860,7 +21573,6 @@ export const books = [
       "b8a70f22-c66a-4792-86dc-400b00bda08c",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
       "f628a79e-ff62-432b-8710-e87f8d5a84c0",
       "cf160880-b4f5-45e3-936d-269605d21778"
     ],
@@ -21954,7 +21666,6 @@ export const books = [
       "e5c0a16b-b375-4684-a7e7-0224ab6e52b7",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "92c653cb-99cb-4ef7-9032-110a1e555148",
-
 
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b"
     ],
@@ -22086,7 +21797,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
       "c60e7571-371f-4985-a3eb-97f7d3330e92"
     ],
@@ -22181,7 +21891,6 @@ export const books = [
       "9a45dc71-1603-4fd7-b4f0-b7ec8e31d456",
       "e0406bbe-9415-4612-ad8a-934a2255adc4",
 
-
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e"
     ],
@@ -22201,7 +21910,6 @@ export const books = [
       "2afe9af7-23b7-4476-992e-609102106df5",
       "a4f80b3e-3e96-4266-b729-e09b71793182",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
-
 
     ],
     "popularity": 437,
@@ -22310,7 +22018,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "fa4bd01a-9e37-47c1-b55c-485c8b4d5530",
       "8133574f-f163-4022-b128-372353550211",
-
 
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
       "ea705fea-896a-4ab6-90b0-83952e7f782a"
@@ -22555,7 +22262,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
 
-
     ],
     "popularity": 20034,
     "title": "Will Grayson, Will Grayson",
@@ -22591,7 +22297,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "8133574f-f163-4022-b128-372353550211",
 
-
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6"
     ],
@@ -22609,7 +22314,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "765b17c6-09d5-4484-8542-14e60aa426e6",
-
 
       "e0406bbe-9415-4612-ad8a-934a2255adc4"
     ],
@@ -22685,8 +22389,6 @@ export const books = [
       "c23ff9df-3401-46f6-83dd-9d8caaae3b8c",
       "0d4c8560-b7de-47d5-a204-3651b59f7e1b",
 
-
-
       "2dc8daea-9a6b-4028-97e2-767d0248678f"
     ],
     "popularity": 48,
@@ -22759,7 +22461,6 @@ export const books = [
     "genres": [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
-
 
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
 
@@ -22972,7 +22673,6 @@ export const books = [
       "8c92b5be-e0ef-4d01-ad97-b93dfd404e08",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
 
-
     ],
     "popularity": 48,
     "title": "A Guide for Grown-ups: Essential Wisdom from the Collected Works of Antoine de Saint-Exupéry",
@@ -23102,7 +22802,6 @@ export const books = [
       "765b17c6-09d5-4484-8542-14e60aa426e6",
       "7e1145c8-d7fb-49b4-81e2-611958b388e6",
 
-
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56"
     ],
     "popularity": 2949,
@@ -23210,7 +22909,6 @@ export const books = [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "c60e7571-371f-4985-a3eb-97f7d3330e92",
 
-
       "45db37a5-83ea-4e2c-976d-dd962967bcf1"
     ],
     "popularity": 559,
@@ -23226,7 +22924,6 @@ export const books = [
     "genres": [
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
 
       "92c653cb-99cb-4ef7-9032-110a1e555148"
     ],
@@ -23263,8 +22960,6 @@ export const books = [
       "c2d9e8fa-c69e-4468-ae72-0fde54520863",
       "ea705fea-896a-4ab6-90b0-83952e7f782a",
 
-
-
       "bb50b245-4f41-4bab-aea9-56cc0b6a7f7d"
     ],
     "popularity": 20,
@@ -23281,8 +22976,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "c23ff9df-3401-46f6-83dd-9d8caaae3b8c",
       "0d4c8560-b7de-47d5-a204-3651b59f7e1b",
-
-
 
       "2dc8daea-9a6b-4028-97e2-767d0248678f"
     ],
@@ -23524,7 +23217,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e5c0a16b-b375-4684-a7e7-0224ab6e52b7",
 
-
       "92c653cb-99cb-4ef7-9032-110a1e555148",
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b"
     ],
@@ -23580,8 +23272,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "90dd9a0f-9cce-48b7-b431-bde529a627bf",
-
-
 
       "92c653cb-99cb-4ef7-9032-110a1e555148"
     ],
@@ -23655,7 +23345,6 @@ export const books = [
     "genres": [
       "604fa99a-9c17-41c5-a23c-92a033a93cea",
       "a74cda25-9978-4f7f-8afc-309734499b58",
-
 
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
       "1a68857f-92ae-490a-9395-30b8e15613b0",
@@ -23751,9 +23440,7 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
 
-
       "4b082b54-6dac-4079-9be2-a74b9111b9b2",
-
 
     ],
     "popularity": 136,
@@ -23788,8 +23475,6 @@ export const books = [
     "genres": [
 
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
-
 
     ],
     "popularity": 14,
@@ -23844,7 +23529,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
       "b832b1c8-1dbc-4dd1-8f43-ed9cfb52fd3e",
-
 
       "3ae699b8-0602-4f24-8428-bfefc17231da",
 
@@ -24012,8 +23696,6 @@ export const books = [
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
 
-
-
     ],
     "popularity": 69942,
     "title": "Looking for Alaska",
@@ -24070,7 +23752,6 @@ export const books = [
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
 
-
     ],
     "popularity": 50,
     "title": "Charlotte and Emily Brontë: The Complete Novels",
@@ -24122,7 +23803,6 @@ export const books = [
     "id": "b0387a1f-9e14-49f5-8ecd-8ff980f78fe5",
     "genres": [
 
-
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
@@ -24141,8 +23821,6 @@ export const books = [
     "id": "8987530d-239c-4980-9b3d-ccf3c20e674a",
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
-
-
 
       "746b98ed-b0b5-4bf3-bc1c-af8657601c7b",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
@@ -24221,7 +23899,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "2d936adf-6f57-4bc5-886e-64d4505e0faf",
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
-
 
     ],
     "popularity": 482,
@@ -24617,7 +24294,6 @@ export const books = [
 
       "2c63dfac-5b3e-4ea2-a29d-650bc1de5dad",
 
-
     ],
     "popularity": 6230,
     "title": "Orlando",
@@ -24634,7 +24310,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
-
 
       "39ca8a42-15aa-4774-ad4a-eda304b6ad56"
     ],
@@ -24672,7 +24347,6 @@ export const books = [
       "a74cda25-9978-4f7f-8afc-309734499b58",
       "e15aacae-3111-4cf8-91f1-e725d3e8a02a",
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
-
 
       "5544cf7a-0f35-4576-a0eb-d01bc634655b"
     ],
@@ -24748,8 +24422,6 @@ export const books = [
       "8133574f-f163-4022-b128-372353550211",
       "e147de22-6105-4665-aa63-16f986d1a153",
 
-
-
     ],
     "popularity": 1109,
     "title": "Sarah",
@@ -24783,7 +24455,6 @@ export const books = [
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
       "4d6d871a-9779-47a8-91b6-5041ca68d1ae",
 
-
       "ea705fea-896a-4ab6-90b0-83952e7f782a"
     ],
     "popularity": 501,
@@ -24799,7 +24470,6 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
       "e8ebb4be-b86b-49db-985c-2be996e4d5b8",
-
 
       "45db37a5-83ea-4e2c-976d-dd962967bcf1",
       "3ae699b8-0602-4f24-8428-bfefc17231da",
@@ -24982,7 +24652,6 @@ export const books = [
     "genres": [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
-
       "5439a895-20a8-421a-981d-43f99b521cb5",
       "a4f80b3e-3e96-4266-b729-e09b71793182",
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
@@ -25041,7 +24710,6 @@ export const books = [
       "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a",
 
       "3fbac1ca-3331-4bc5-94d5-a0c892c5ce8d",
-
 
       "45db37a5-83ea-4e2c-976d-dd962967bcf1"
     ],
@@ -25267,7 +24935,6 @@ export const books = [
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
       "cf160880-b4f5-45e3-936d-269605d21778",
 
-
     ],
     "popularity": 85,
     "title": "Les Misérables: Marius",
@@ -25281,7 +24948,6 @@ export const books = [
     "id": "6f2430ca-7712-4058-9387-fe5dd0d76d7f",
     "genres": [
       "a74cda25-9978-4f7f-8afc-309734499b58",
-
 
       "8e7f0492-e06b-4060-8eb5-c183c439aaf8",
       "61c911f1-cbf5-48bf-9df9-d32d4506badb",
