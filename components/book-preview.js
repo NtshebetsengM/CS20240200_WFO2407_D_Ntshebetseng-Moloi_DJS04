@@ -1,7 +1,7 @@
 //@ts-check
 class BookPreview extends HTMLElement {
   static get observedAttributes(){
-    return ['image', 'title', 'author']
+    return ['image', 'title', 'author', 'description']
   }
   constructor() {
     super();
